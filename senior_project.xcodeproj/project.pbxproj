@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4807815A2CC456BF009F3E66 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480781592CC456B8009F3E66 /* WorkoutSession.swift */; };
+		4807815C2CC456F0009F3E66 /* WorkoutSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4807815B2CC456F0009F3E66 /* WorkoutSessionStore.swift */; };
+		4807815E2CC45707009F3E66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4807815D2CC45707009F3E66 /* HomeView.swift */; };
+		480781602CC45716009F3E66 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4807815F2CC45716009F3E66 /* SessionDetailView.swift */; };
+		480781622CC45725009F3E66 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480781612CC45725009F3E66 /* ProfileView.swift */; };
+		480781642CC45739009F3E66 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480781632CC45739009F3E66 /* MainTabView.swift */; };
+		480781662CC49F81009F3E66 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480781652CC49F81009F3E66 /* AppState.swift */; };
+		482F94272C4D9B44008A94C5 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F94262C4D9B44008A94C5 /* BluetoothService.swift */; };
 		484F88BA2C4A29D6000D1A25 /* senior_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F88B92C4A29D6000D1A25 /* senior_projectApp.swift */; };
 		484F88BC2C4A29D6000D1A25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F88BB2C4A29D6000D1A25 /* ContentView.swift */; };
-		484F88BE2C4A29D9000D1A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484F88BD2C4A29D9000D1A25 /* Assets.xcassets */; };
-		484F88C12C4A29D9000D1A25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484F88C02C4A29D9000D1A25 /* Preview Assets.xcassets */; };
 		484F88CB2C4A29D9000D1A25 /* senior_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F88CA2C4A29D9000D1A25 /* senior_projectTests.swift */; };
 		484F88D52C4A29D9000D1A25 /* senior_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F88D42C4A29D9000D1A25 /* senior_projectUITests.swift */; };
 		484F88D72C4A29D9000D1A25 /* senior_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F88D62C4A29D9000D1A25 /* senior_projectUITestsLaunchTests.swift */; };
@@ -34,11 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480781592CC456B8009F3E66 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		4807815B2CC456F0009F3E66 /* WorkoutSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionStore.swift; sourceTree = "<group>"; };
+		4807815D2CC45707009F3E66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4807815F2CC45716009F3E66 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		480781612CC45725009F3E66 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		480781632CC45739009F3E66 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		480781652CC49F81009F3E66 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		482F94262C4D9B44008A94C5 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 		484F88B62C4A29D6000D1A25 /* senior_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = senior_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484F88B92C4A29D6000D1A25 /* senior_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senior_projectApp.swift; sourceTree = "<group>"; };
 		484F88BB2C4A29D6000D1A25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		484F88BD2C4A29D9000D1A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		484F88C02C4A29D9000D1A25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		484F88C62C4A29D9000D1A25 /* senior_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senior_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484F88CA2C4A29D9000D1A25 /* senior_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senior_projectTests.swift; sourceTree = "<group>"; };
 		484F88D02C4A29D9000D1A25 /* senior_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senior_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +108,15 @@
 			children = (
 				484F88B92C4A29D6000D1A25 /* senior_projectApp.swift */,
 				484F88BB2C4A29D6000D1A25 /* ContentView.swift */,
-				484F88BD2C4A29D9000D1A25 /* Assets.xcassets */,
+				480781652CC49F81009F3E66 /* AppState.swift */,
+				480781592CC456B8009F3E66 /* WorkoutSession.swift */,
+				4807815D2CC45707009F3E66 /* HomeView.swift */,
+				480781632CC45739009F3E66 /* MainTabView.swift */,
+				480781612CC45725009F3E66 /* ProfileView.swift */,
+				4807815F2CC45716009F3E66 /* SessionDetailView.swift */,
+				4807815B2CC456F0009F3E66 /* WorkoutSessionStore.swift */,
 				484F88BF2C4A29D9000D1A25 /* Preview Content */,
+				482F94262C4D9B44008A94C5 /* BluetoothService.swift */,
 			);
 			path = senior_project;
 			sourceTree = "<group>";
@@ -105,7 +124,6 @@
 		484F88BF2C4A29D9000D1A25 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				484F88C02C4A29D9000D1A25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -231,8 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484F88C12C4A29D9000D1A25 /* Preview Assets.xcassets in Resources */,
-				484F88BE2C4A29D9000D1A25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480781622CC45725009F3E66 /* ProfileView.swift in Sources */,
+				480781662CC49F81009F3E66 /* AppState.swift in Sources */,
+				4807815C2CC456F0009F3E66 /* WorkoutSessionStore.swift in Sources */,
+				480781642CC45739009F3E66 /* MainTabView.swift in Sources */,
 				484F88BC2C4A29D6000D1A25 /* ContentView.swift in Sources */,
+				482F94272C4D9B44008A94C5 /* BluetoothService.swift in Sources */,
+				4807815E2CC45707009F3E66 /* HomeView.swift in Sources */,
+				480781602CC45716009F3E66 /* SessionDetailView.swift in Sources */,
+				4807815A2CC456BF009F3E66 /* WorkoutSession.swift in Sources */,
 				484F88BA2C4A29D6000D1A25 /* senior_projectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +446,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"senior_project/Preview Content\"";
+				DEVELOPMENT_TEAM = UV7J82UH9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow Bluetooth for Reading Signal";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow for bluetooth use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +477,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"senior_project/Preview Content\"";
+				DEVELOPMENT_TEAM = UV7J82UH9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow Bluetooth for Reading Signal";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow for bluetooth use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
