@@ -13,17 +13,21 @@
 
 ## Demo
 
-![StrainTracker Screenshot](path_to_screenshot_image)
-
-*Figure 1: StrainTracker Dashboard showcasing real-time strain data and metrics.*
+[Watch the Demo Video](youtube_link_here)
 
 ## Technologies Used
 
-- **Swift 5.7**
-- **SwiftUI**
-- **CoreBluetooth**
-- **Charts**
-- **Combine**
+- **Hardware:**
+  - **Arduino MKR WiFi 1010:** Acts as the central microcontroller, managing sensor data collection and Bluetooth communication.
+  - **EMG Monitor Chip and Sensors:** Detect muscle activity to measure strain during workouts.
+  - **BreadBoard and Wires:** Facilitate connections between the Arduino and sensors for prototyping and testing.
+
+- **Software:**
+  - **Swift 5.7**
+  - **SwiftUI**
+  - **CoreBluetooth**
+  - **Charts**
+  - **Combine**
 
 ## Architecture
 
@@ -33,16 +37,28 @@ StrainTracker follows the MVVM (Model-View-ViewModel) architecture pattern to en
 - **ViewModel:** The `BluetoothService` class acts as the ViewModel, handling Bluetooth connectivity, data processing, and business logic.
 - **View:** The `ContentView` utilizes SwiftUI to present the user interface, observing the ViewModel's published properties to reflect real-time data.
 
+### Hardware Integration
+
+- **Arduino MKR WiFi 1010:** The Arduino serves as the bridge between the EMG sensors and the iOS application. It collects raw sensor data, processes it to determine strain levels, and transmits this information via Bluetooth to the StrainTracker app.
+  
+- **EMG Monitor Chip and Sensors:** These components detect electrical activity produced by muscles during exercise. The data captured by the sensors is sent to the Arduino for processing.
+
+### Bluetooth Connectivity
+
+- **CoreBluetooth Framework:** StrainTracker utilizes Apple's CoreBluetooth framework to manage Bluetooth Low Energy (BLE) communications. The `BluetoothService` class handles scanning for peripherals, establishing connections, and receiving data from the Arduino.
+  
+- **Data Transmission:** The Arduino is programmed to send strain data over BLE using a specific service and characteristic UUID. StrainTracker listens to these characteristics, parses the incoming data, and updates the UI accordingly.
+
 ## Screenshots
 
 ![StrainTracker Dashboard](path_to_dashboard_screenshot)
 
-*Figure 2: Dashboard displaying strain metrics and real-time chart.*
+*Figure 1: Dashboard displaying strain metrics and real-time chart.*
 
 ![StrainTracker Chart](path_to_chart_screenshot)
 
-*Figure 3: Interactive chart visualizing strain over time.*
+*Figure 2: Interactive chart visualizing strain over time.*
 
 ## Conclusion
 
-StrainTracker provides a comprehensive solution for monitoring and analyzing workout performance in real-time. By leveraging Bluetooth connectivity and robust data processing, it delivers valuable insights to help users optimize their training regimens effectively.
+StrainTracker provides a comprehensive solution for monitoring and analyzing workout performance in real-time. By integrating Arduino-based hardware with robust Bluetooth connectivity and efficient data processing, it delivers valuable insights to help users optimize their training regimens effectively.
